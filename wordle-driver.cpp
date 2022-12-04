@@ -25,6 +25,7 @@ int main(int argc, char* argv[])
     }
     std::set<string> answers;
     answers = wordle(in, floatingChars, dict);
+        cout << "Answers: " <<endl;
     for(auto s : answers){
         cout << s << endl;
     }
